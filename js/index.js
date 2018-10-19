@@ -1,4 +1,4 @@
-w = 100%, h = 100%;
+w = 1600, h = 800;
 var renderer = new PIXI.WebGLRenderer(w, h);
 var cOutput = document.getElementById('wrap');
 cOutput.appendChild(renderer.view);
