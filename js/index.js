@@ -16,8 +16,8 @@ var ploader = new PIXI.loaders.Loader();
 
 function init(){
   console.log('dasdsdasd');
-  ploader.add('fg', 'img/splash_bg_new.jpg');
-  ploader.add('depth', 'img/splash_bg_depthmap.jpg');
+  ploader.add('fg', 'img/elephant.jpg');
+  ploader.add('depth', 'img/elephant_depth.jpg');
 
   ploader.once('complete', startMagic);
   // Begin loading -
