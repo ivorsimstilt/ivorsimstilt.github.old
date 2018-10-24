@@ -11,7 +11,7 @@ stage.addChild(foreground);
 
 var f;
 var fg;
-var mousex = w/2, mousey = h/2;
+var mousex = w/1, mousey = h/1;
 var ploader = new PIXI.loaders.Loader();
 
 function init(){
