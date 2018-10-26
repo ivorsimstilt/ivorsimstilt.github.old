@@ -1,5 +1,5 @@
 w = 1920, h = 1080;
-var renderer = new PIXI.WebGLRenderer(w, h);
+var renderer = new PIXI.autoDetectRenderer(w, h);
 var cOutput = document.getElementById('wrap');
 cOutput.appendChild(renderer.view);
 
